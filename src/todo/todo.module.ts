@@ -5,6 +5,6 @@ import { TodoController } from './controller/todo.controller';
 
 @Module({
   providers: [TodoService, PrismaService],
-  controllers: [TodoController]
+  controllers: [TodoController],
 })
 export class TodoModule {}
